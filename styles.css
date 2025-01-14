@@ -1,0 +1,80 @@
+html {
+    background-color: #EAF2F8;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 84px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+p, 
+li,
+a {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 50 50 50 50;
+}
+
+.flex-container-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1px; /* Espaciado entre columnas */
+}
+
+.flex-container-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1px; /* Espaciado entre columnas */
+}
+
+.column-text-start {
+    flex: 1; /* Hace que todas las columnas sean del mismo ancho */
+    text-align: start;
+}
+
+.column-text-center {
+    flex: 1; /* Hace que todas las columnas sean del mismo ancho */
+    text-align: center;
+}
+
+.personal-data {
+    height: 120px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #587da5;
+    color: #fff;
+}
+  
